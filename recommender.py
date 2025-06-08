@@ -290,9 +290,8 @@ def main():
     """Example usage of the AnimeRecommendationSystem"""
 
     # Initialize the system
-    anime_path = "/Users/simrasaher/.cache/kagglehub/datasets/CooperUnion/anime-recommendations-database/versions/1/anime.csv"  # Update with your path
-    rating_path = "/Users/simrasaher/.cache/kagglehub/datasets/CooperUnion/anime-recommendations-database/versions/1/rating.csv"  # Update with your path
-
+    anime_path = "path/to/your/anime.csv"
+    rating_path = "path/to/your/rating.csv"
     recommender = AnimeRecommendationSystem(anime_path, rating_path)
 
     # Load and preprocess data

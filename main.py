@@ -9,8 +9,8 @@ import pandas as pd
 from recommender import AnimeRecommendationSystem
 
 # Paths
-anime_path = "/Users/simrasaher/.cache/kagglehub/datasets/CooperUnion/anime-recommendations-database/versions/1/anime.csv"
-rating_path = "/Users/simrasaher/.cache/kagglehub/datasets/CooperUnion/anime-recommendations-database/versions/1/rating.csv"
+anime_path = "path/to/your/anime.csv"
+rating_path = "path/to/your/rating.csv"
 
 app = FastAPI()
 templates = Jinja2Templates(directory="template")
